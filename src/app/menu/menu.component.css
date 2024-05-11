@@ -1,0 +1,74 @@
+/* menucomponent.css */
+
+/* Navbar Brand */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff; /* White color for text */
+  }
+  
+  /* Navbar Links */
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+    color: #fff; /* White color for text */
+    transition: color 0.3s; /* Smooth color transition on hover */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffc107; /* Yellow color on hover */
+  }
+  
+  /* Navbar Background */
+  .navbar {
+    background-color: #343a40; /* Dark background color */
+  }
+  
+  /* Navbar Container */
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Navbar Toggle Icon */
+  .navbar-toggler-icon {
+    background-color: #fff; /* White color for toggle icon */
+  }
+  
+  /* Navbar Toggle Button */
+  .navbar-toggler {
+    border: none; /* Remove border */
+  }
+  
+  /* Navbar Collapse */
+  .navbar-collapse {
+    flex-grow: 1;
+  }
+  
+  /* Navbar Items */
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+    list-style: none; /* Remove bullet points */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Navbar Item */
+  .navbar-nav li {
+    margin-left: 1rem; /* Add spacing between items */
+  }
+  
+  /* Navbar Item Link */
+  .navbar-nav .nav-link {
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Right Aligned Items */
+  .navbar-right {
+    margin-left: auto; /* Move items to the right */
+  }
+  
+  /* Custom CSS for login and logout alignment */
+#loginLogout {
+    margin-left: auto;
+}
